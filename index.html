@@ -1,14 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Portugueses en Bahia Blanca</title>
-    <link rel="stylesheet" href="/css/estilo.css">
-</head>
-<body>
-    
-<script src="/js/script.js"></script>   
-</body>
-</html>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><img src="/assets/logo.png" alt="logo"></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Inicio</a></li>
+        <li class="link"><a href="#about">Nosotros</a></li>
+        <li class="link"><a href="#portfolio">Portfolio</a></li>
+        <li class="link"><a href="#craft">Productos</a></li>
+        <li class="link"><a href="#news">Novedades</a></li>
+        <li class="link"><a href="#contact">Contacto</a></li>
+      </ul>
+      <div class="nav__menu__btn" id="menu-btn">
+        <span><i class="ri-menu-3-line"></i></span>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__content">
+        <h1>PORTUGUESES EN BAHIA BLANCA</h1>
+      </div>
+      <div class="header__image">
+        <img src="/assets/7.jpg" alt="header" />
+        <img src="/assets/2.jpeg" alt="header" />
+      </div>
+    </header>
 
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <div class="about__image">
+          <img src="/assets/1.jpg" alt="nosotros"/>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">Nosotros</p>
+          <h2 class="section__header">Bienvenidos a la Colectividad Portuguesa de la ciudad de Bahia Blanca</h2>
+          <p class="paragraph">
+            Portugueses en Bahía Blanca es una iniciativa que surgió a principios del 2022 y que tiene como objetivo dar a conocer, mediante diferentes actividades, el acervo cultural luso, a la vez de conocer y conectar a los portugueses y descendientes que actualmente residen en la ciudad.  <br> <br>
+            Integrantes del Centro de Colectividades Extranjeras de Bahía Blanca, participamos representando a Portugal en ferias, museos, desfiles, difusiones radiales, y demás actividades que organiza el CCEBB, siempre promoviendo los valores solidarios, el voluntariado y el compromiso con nuestras raíces.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="portfolio">
+      <div class="portfolio__header">
+        <div>
+          <p class="section__subheader">Portfolio</p>
+          <h2 class="section__header">Nuestra Colectividad en Imagenes</h2>
+        </div>
+      </div>
+      <div class="section slider-section">
+        <div class="container slider-column">
+          <div class="swiper swiper-slider">
+            <div class="swiper-wrapper">
+              <img class="swiper-slide" src="/assets/slide1.JPG" alt="Swiper">
+              <img class="swiper-slide" src="/assets/slide2.JPG" alt="Swiper">
+              <img class="swiper-slide" src="/assets/slide3.jpg" alt="Swiper">
+              <img class="swiper-slide" src="/assets/slide4.jpg" alt="Swiper">
+              <img class="swiper-slide" src="/assets/slide5.jpg" alt="Swiper">
+              <img class="swiper-slide" src="/assets/slide6.JPG" alt="Swiper">
+            </div>
+            <span class="swiper-pagination"></span>
+            <span class="swiper-button-prev"></span>
+            <span class="swiper-button-next"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container craft__container" id="craft">
+      <div class="craft__content">
+        <p class="section__subheader">Productos</p>
+        <h2 class="section__header">Nuestras artesanias</h2><br>
+        <p class="section__subheader">
+          Podras tener un pequeño recuerdo de Portugal  
+        </p>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="/assets/guitarra portuguesa.png" alt="craft" />
+          <p>Guitarra Portuguesa</p>
+          <h4>$3000.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="/assets/medalla.png" alt="craft" />
+          <p>Medalla Fatima</p>
+          <h4>$1000.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="/assets/portallavero gallo.png" alt="craft" />
+          <p>Portallavero</p>
+          <h4>$1500.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+    </section>
+
+    <section class="section__container news__container" id="news">
+      <p class="section__subheader">Novedades</p>
+      <h2 class="section__header">Lee nuestras novedades</h2>
+      <div class="news__grid">
+        <div class="news__card">
+          <img src="/assets/teatro.jpg" alt="news" />
+          <div>
+            <h4>Festival de Música y Danza - Teatro Municipal</h4>
+            <p>
+              El 12 de Septiembre se realizo un festival de Musica y Danza del Mundo 
+              en donde nuestro ballet presento una coreografia de marchas como
+              las que se realizan en honor a los Santos Populares.     
+            </p>
+          </div>
+        </div>
+        <div class="news__card">
+          <img src="/assets/radio.jpg" alt="news" />
+          <div>
+            <h4>Ciclo de Colectividades Extranjeras - LU3</h4>
+            <p>
+             Todos los martes se emite el Programa del Ciclo de Colectividades
+             Extranjeras, del cual participamos aportando musica tradicional y dando a conocer
+             diferentes aspectos de la cultura portuguesa.              
+            </p>
+          </div>
+        </div>
+        <div class="news__card">
+          <img src="/assets/acto.jpg" alt="news" />
+          <div>
+            <h4>Actos Institucionales</h4>
+            <p>
+             Como mienbros del CCEBB asistimos a diferentes actos institucionales organizados 
+             por el Municipalidad de Bahia Blanca. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section__container contact__container">
+        <h2 class="section__header">
+          Contactanos para conocer mas acerca de nosotros
+        </h2>
+        <div class="contact__logo">
+          <img src="/assets/logo mini.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <footer class="section__container footer__container">
+      <div class="footer__col">
+        <div class="nav__logo"><img src="/assets/logo.png" alt="logo"></div>
+      </div>
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <p>Bahia Blanca</p>
+        <p>291</p>
+        <p>pixelpulse@gmail.com</p>
+      </div>
+      <div class="footer__col">
+        <h4>Acerca Nuestro</h4>
+        <p>
+          Creamos la Colectividad Portuguesa oficial en Bahia Blanca 
+          con el objetivo de acercar la cultura y arte portuguesa a todas aquellas personas interesadas. 
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Suscribete</h4>
+        <form action="/">
+          <input type="text" placeholder="Your Email" />
+          <button><i class="ri-send-plane-2-fill"></i></button>
+        </form>
+        <div class="footer__socials">
+          <h4>Siguenos</h4>
+          <div>
+            <a href="#"><i class="ri-facebook-box-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Copyright © 2023 Fernando Lamas. All rights reserved.
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
